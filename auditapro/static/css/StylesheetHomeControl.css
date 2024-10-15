@@ -1,0 +1,153 @@
+#mynavbar {
+    background: linear-gradient(#8527FE, #330FFC);
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    background-color: #1F0FC4;
+}
+
+.innerp {
+    margin-top: 50px;
+}
+
+.menu {
+    text-align: center;
+    height: 700px;
+    display: grid;
+    grid-area: auto;
+    grid-template: 1fr 1fr, 1fr 1fr;
+}
+
+.menuelem1 {
+    background: linear-gradient(#0b9f30, #2409c0);
+    object-fit: fill;
+    border: solid;
+    grid-column: 1;
+}
+
+.menuelem2 {
+    background: linear-gradient(#6e0b9f, #2409c0);
+    object-fit: fill;
+    border: solid;
+    grid-column: 2;
+}
+
+.menuelem3 {
+    background: linear-gradient(#0a4b9a, #2409c0);
+    object-fit: fill;
+    border: solid;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.menuelem4 {
+    background: linear-gradient(#bb400c, #2409c0);
+    object-fit: fill;
+    border: solid;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.logcontainner {
+    border: solid;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
+.layout {
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    display:grid;
+    grid-template-areas:1fr 1fr 1fr;
+    grid-template:'cam1 cam1 cam1';
+    background-color: rgb(18, 196, 125);
+}
+.cam1{
+    text-align: center;
+    display:grid;
+    grid-template-areas:1fr, 1fr;
+    grid-template:'camelem', 'camelem camelem';
+    padding-top: 5px;
+    border:solid;
+}
+.camelem{
+    text-align: center;
+}
+
+#carouselExampleCaptions {
+    grid-area: carousel;
+}
+
+.menuCam {
+    display: grid;
+    grid-template-areas: "cameras carousel";
+}
+
+.buttonSection {
+    margin-left: 50px;
+    width: 500px;
+    height: 50px;
+    display: grid;
+    grid-template-areas: 1fr 1fr 1fr 1fr;
+}
+
+#button1 {
+    grid-column: 1/span 1;
+    margin: 2px;
+}
+
+#button2 {
+    grid-column: 2/span 1;
+    margin: 2px;
+}
+
+#button3 {
+    grid-column: 3/span 1;
+    margin: 2px;
+}
+
+#button4 {
+    grid-column: 4/span 1;
+    margin: 2px;
+}
+.userHeader{
+    background: linear-gradient(#6e0b9f, #4d32e6);
+}
+.userContainer {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top:10px;
+    display:grid;
+    grid-template-areas:1fr 1fr 1fr 1fr;
+    grid-template:'userCard userCard userCard userCard';
+}
+.userCard{
+    padding: 5px;
+}
+.lightMenu {
+
+    margin: 50px;
+    display:grid;
+    grid-template-areas:1fr 1fr 1fr;
+    grid-template:'light1 light1 light1';
+    background-color: rgb(18, 196, 125);
+}
+.light1{
+    margin:10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding-top: 5px;
+    text-align:center;
+}
